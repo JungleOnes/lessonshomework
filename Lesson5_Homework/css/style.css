@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap');
+
+
+@font-face {
+   font-family: "Moche";
+   src: url("../fonts/Moche-Bold.woff2")format("woff2"), url("../fonts/Moche-Bold.woff")format("woff");
+   font-display: swap;
+   font-weight: 700;
+   font-style: normal;
+   ;
+}
+
+@font-face {
+   font-family: "Moche";
+   src: url("../fonts/Moche-Regular.woff2")format("woff2"), url("../fonts/Moche-Regular.woff")format("woff");
+   font-display: swap;
+   font-weight: 400;
+   font-style: normal;
+   ;
+}
+
+@font-face {
+   font-family: "Moche";
+   src: url("../fonts/Moche-Light.woff2")format("woof2"), url("../fonts/Moche-Light.woff")format("woff");
+   font-display: swap;
+   font-weight: 300;
+   font-style: normal;
+}
+
+body {
+   font-family: Moche;
+}
+
+.title {
+   font-family: Moche;
+   font-size: 30px;
+   font-style: oblique;
+   font-weight: 700;
+   color: red;
+   text-align: center;
+   margin-bottom: 10px;
+   background-color: coral;
+}
+
+.list {
+   color: rgba(12, 12, 226, 0.636);
+}
+
+.content {
+   text-align: center;
+   font-size: 20px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+
+}
+
+div.text {
+   white-space: nowrap;
+   padding: 10px;
+
+}
+
+p.text {
+   padding-top: 15px;
+   text-decoration: underline;
+   text-shadow: 3px 2px 5px #13cf2c, 5px 3px 2px #162cbc;
+}
+
+p.bone {
+   text-indent: 15px;
+}
+
+.cola {
+   width: 600px;
+   letter-spacing: 3px;
+   color: blueviolet;
+   padding-left: 3px;
+}
+
+.inform {
+   text-align: center;
+   margin: 50px;
+   color: red;
+}
+
+.letter {
+   text-transform: capitalize;
+   text-decoration: line-through;
+   font-size: 20px;
+   line-height: 2.2;
+}
+
+a {
+   color: darkred;
+}
+
+.right {
+   background-color: aqua;
+   text-shadow: 5px 5px 2px rgb(47, 129, 70);
+   text-decoration: underline;
+   font-weight: 700;
+   word-spacing: 10px;
+}

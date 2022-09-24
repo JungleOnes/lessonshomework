@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Book.woff2") format("woff2"), url("../fonts/CircularStd-Book.woff") format("woff");
+	font-display: swap;
+	font-weight: 350;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-BookItalic.woff2") format("woff2"), url("../fonts/CircularStd-BookItalic.woff") format("woff");
+	font-display: swap;
+	font-weight: 350;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Medium.woff2") format("woff2"), url("../fonts/CircularStd-Medium.woff") format("woff");
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Bold.woff2") format("woff2"), url("../fonts/CircularStd-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Black.woff2") format("woff2"), url("../fonts/CircularStd-Black.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+
+body {
+	font-family: "Lato", serif;
+
+}
+
+[class*="__container"] {
+	max-width: 810px;
+	margin: 0 auto;
+
+}
+
+
+.head__container {
+	font-size: 50px;
+	margin: 0 auto;
+	max-width: 810px;
+	padding: 15px;
+	text-align: center;
+	margin-bottom: 50px;
+	background-color: red;
+}
+
+h1 {
+	color: #1E212C;
+	padding: 20px;
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 59.8px;
+	margin-bottom: 40px;
+}
+
+.image {
+	max-width: 100%;
+	margin-bottom: 40px;
+}
+
+.body__container>p {
+	color: #1E212C;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 30px;
+	margin-bottom: 22px;
+}
+
+.text__container {
+	color: #424551;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	margin-bottom: 48px;
+}
+
+.text-first {
+	margin-bottom: 20px;
+
+}
+
+.center__container {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.5;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	padding-left: 58px;
+	margin-bottom: 48px;
+}
+
+.list__container {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.6;
+	color: #424551;
+	margin-bottom: 60px;
+}
+
+.list__container>p {
+	margin-bottom: 24px;
+}
+
+.list__container>ul {
+	padding-left: 32px;
+	margin-bottom: 24px;
+}
+
+h2 {
+	max-width: 810px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 50px;
+	font-family: CircularStd;
+	margin-bottom: 40px;
+}
+
+.back {
+	margin: 0 auto;
+	max-height: 3000px;
+	background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(24, 156, 168, 1) 46%, rgba(0, 212, 255, 1) 100%);
+}
+
+.back-exp {
+	padding: 50px;
+	background-color: aqua;
+	margin: 0 auto;
+	max-width: 800px;
+	border-radius: 50%;
+}
+
+.back-exp2 {
+	padding: 50px;
+	background-image: url("../img/exp/2.jpg");
+	height: 300px;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-bottom: 20px;
+	border-radius: 50%;
+	box-shadow: 10px 10px 15px red;
+}
+
+.exp3 {
+	padding: 60px;
+	background-image: url("../img/exp/1.jpg");
+	height: 800px;
+	background-position: 0 0;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.exp4 {
+	padding: 30px;
+	height: 800px;
+	background: url("../img/2.png") left no-repeat, url("../img/2.png") right no-repeat, url("../img/exp/4.jpg") 100% 0px / cover no-repeat;
+	margin-bottom: 50px;
+}
+
+
+.fb {
+	font-family: CircularStd;
+	font-size: 40px;
+	font-weight: 900;
+}
+
+.end {
+	margin: 0 auto;
+	max-width: 850px;
+	text-align: center;
+	font-size: 25px;
+}
+
+a>img {
+	background-color: blue;
+	max-width: 100px;
+	padding: 15px;
+	border-radius: 50%;
+}
+
+.foot {
+	background-color: red;
+}

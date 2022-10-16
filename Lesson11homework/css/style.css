@@ -1,0 +1,115 @@
+body {
+	background: url("../img/1617081477_20-p-oboi-priroda-doroga-23\ \(1\).jpg") 0 0 / cover no-repeat;
+
+
+}
+
+.wrapper {}
+
+
+.header {
+	position: fixed;
+	background-color: red;
+}
+
+.car__container {
+
+	max-width: 1230px;
+	margin: 0 auto;
+
+}
+
+
+.car__body {
+	background-color: green;
+	width: 275px;
+	height: 120px;
+	border-radius: 0px 300px 0px 0;
+	position: absolute;
+	bottom: 100px;
+	left: 800px;
+	display: block;
+	z-index: 0;
+}
+
+.car__wheels__right {
+	background-color: black;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	position: absolute;
+	bottom: -20px;
+	left: 200px;
+}
+
+.car__wheels__left {
+	background-color: black;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	position: absolute;
+	bottom: -20px;
+	left: 40px;
+}
+
+.car__dor {
+	display: block;
+	background-color: black;
+	width: 80px;
+	height: 60px;
+
+	position: absolute;
+	bottom: 0px;
+	left: 100px;
+}
+
+.car__glass {
+	opacity: 0.5;
+	display: block;
+	background-color: white;
+	width: 245px;
+	height: 60px;
+	border-radius: 58% 42% 100% 0% / 0% 100% 0% 100%;
+	position: absolute;
+	bottom: 60px;
+	left: 0px;
+}
+
+.trailer__plank {
+	height: 15px;
+	width: 120px;
+	background-color: black;
+	position: absolute;
+	bottom: 100px;
+	left: 680px;
+}
+
+.trailer__body {
+	height: 60px;
+	width: 200px;
+	position: absolute;
+	background-color: black;
+	position: absolute;
+	bottom: 100px;
+	left: 500px;
+}
+
+.trailer__wheel-right {
+	background-color: white;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	position: absolute;
+	bottom: -20px;
+	left: 140px;
+}
+
+.trailer__wheel-left {
+	background-color: white;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	position: absolute;
+	bottom: -20px;
+	left: 30px;
+}
